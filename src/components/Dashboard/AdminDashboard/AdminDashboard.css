@@ -1,0 +1,29 @@
+.dashboard.admin {
+  padding: 2rem;
+}
+
+.dashboard.admin h2 {
+  font-size: 2rem;
+  color: #b91c1c;
+  margin-bottom: 1.5rem;
+}
+
+.dashboard.admin .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.dashboard.admin .card {
+  padding: 1rem;
+  background-color: #fee2e2;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.dashboard.admin .card:hover {
+  transform: scale(1.05);
+  background-color: #fca5a5;
+}

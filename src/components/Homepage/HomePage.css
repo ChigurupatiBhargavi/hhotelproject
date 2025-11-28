@@ -1,0 +1,36 @@
+.homepage {
+  text-align: center;
+  padding: 2rem;
+  background-color: white; /* Set background to white */
+  color: black;            /* Ensure text is visible on white */
+}
+
+.homepage h1 {
+  font-size: 2.5rem;
+  color: #1e40af; /* Keeps heading color */
+}
+
+.homepage p {
+  color: #374151; /* Darker text for visibility */
+  margin-top: 1rem;
+}
+
+/* Image grid */
+.homepage-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.homepage-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.homepage-img:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,39 @@
+.auth-form {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background-color: white; /* Changed to white */
+  color: #111827;          /* Default text color */
+}
+
+.auth-form h2 {
+  color: #1e40af; /* Dark blue heading */
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #9ca3af;
+  border-radius: 5px;
+  color: #111827; /* Input text color */
+  background-color: #f9fafb; /* Slightly off-white for input fields */
+}
+
+.auth-form input::placeholder {
+  color: #6b7280; /* Placeholder text color */
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 0.6rem;
+  background-color: #1e40af;
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
