@@ -1,0 +1,21 @@
+:root {
+  --blue: #1436c7;
+  --dark-bg: #ffffff;    /* change from #0a0a0a to white */
+  --light-bg: #f5f5f5;
+  --text-light: #ffffff;
+  --text-dark: #222222;
+  --accent: #1a1a1a;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light; /* change to light */
+  color: var(--text-dark);
+  background-color: var(--dark-bg); /* page background white */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-bg); /* whole page white */
+  overflow-x: hidden;
+}
